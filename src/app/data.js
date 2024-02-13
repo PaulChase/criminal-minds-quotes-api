@@ -188,12 +188,12 @@ export const quotes = {
 			{
 				text: "Who in his mind has not probe the dark water?",
 				author: "'East from Eden' John Steinbeck (here used in a puzzle by the Keystone Killer)",
-				saidBy: "(read by) Reid",
+				saidBy: "Reid",
 			},
 			{
 				text: "In order for the light to shine so brightly, the darkness must be present.",
 				author: "Sir Francis Bacon (here used in a puzzle by The Keystone Killer and in Max Ryan's book on page 184).",
-				saidBy: "(read by) Max Ryan",
+				saidBy: "Max Ryan",
 			},
 			{
 				text: "In the end, it's not the years in your life that count. It's the life in your years.",
