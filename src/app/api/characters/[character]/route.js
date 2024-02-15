@@ -10,7 +10,10 @@ export async function GET(request, { params }) {
 			const episodeQuotes = quotes[season][episode];
 			episodeQuotes.map((quote) => {
 				if (quote.saidBy === character) {
-					characterQoutes.push(quote);
+					characterQoutes.push({
+						...quote,
+						episode: season + " - " + episode,
+					});
 				}
 			});
 		}
